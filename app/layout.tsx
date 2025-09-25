@@ -28,22 +28,23 @@ const kalam = Kalam({
 });
 
 export const metadata: Metadata = {
-  title: "Octron - Pioneering the Future of Mental Healthcare",
+  title: "Octron",
   description: "NAVR (NeuroAdaptive VR Therapy) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
   keywords: ["mental health", "VR therapy", "ADHD", "anxiety", "biofeedback", "AI", "neurotechnology"],
   authors: [{ name: "Octron" }],
   icons: {
-    icon: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: "/o-logo.png",
+    apple: "/o-logo.png",
+    shortcut: "/o-logo.png",
   },
   openGraph: {
-    title: "Octron - Pioneering the Future of Mental Healthcare",
+    title: "Octron",
     description: "NAVR (NeuroAdaptive VR Therapy) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Octron - Pioneering the Future of Mental Healthcare",
+    title: "Octron",
     description: "NAVR (NeuroAdaptive VR Therapy) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
   },
 };
@@ -61,8 +62,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${lora.variable} ${montserrat.variable} ${kalam.variable}`}>
       <head>
-        <link rel="icon" href="/o-logo.png" sizes="any" />
-        <link rel="apple-touch-icon" href="/o-logo.png" />
+        <link rel="icon" href="/o-logo.png" type="image/png" sizes="any" />
+        <link rel="apple-touch-icon" href="/o-logo.png" type="image/png" />
+        <link rel="shortcut icon" href="/o-logo.png" type="image/png" />
         <script 
           src="https://platform.linkedin.com/badges/js/profile.js" 
           async 
