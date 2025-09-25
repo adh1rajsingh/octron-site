@@ -19,6 +19,20 @@ export const metadata: Metadata = {
   description: "NAVR (NeuroAdaptive VR Therapy) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
   keywords: ["mental health", "VR therapy", "ADHD", "anxiety", "biofeedback", "AI", "neurotechnology"],
   authors: [{ name: "Octron" }],
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
+  openGraph: {
+    title: "Octron - Pioneering the Future of Mental Healthcare",
+    description: "NAVR (NeuroAdaptive VR Therapy) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Octron - Pioneering the Future of Mental Healthcare",
+    description: "NAVR (NeuroAdaptive VR Therapy) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
+  },
 };
 
 export const viewport = {
@@ -33,6 +47,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${lora.variable}`}>
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+      </head>
       <body>
         {children}
       </body>
