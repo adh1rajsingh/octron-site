@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-inter)"],
         serif: ["var(--font-lora)"],
+        montserrat: ["var(--font-montserrat)"],
       },
       colors: {
         background: "#F8F7F4",
