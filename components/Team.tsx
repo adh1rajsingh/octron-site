@@ -39,14 +39,14 @@ export default function Team() {
           <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-6 max-w-lg">
             <div className="flex items-center space-x-4">
               <img 
-                src="/adhiraj.jpeg"
+                src="/adhiraj.png"
                 alt="Adhiraj Singh"
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div className="flex-1">
                 <h3 className="font-semibold text-gray-900 text-base">Adhiraj Singh</h3>
                 <p className="text-base text-gray-600">Co-Founder</p>
-                <p className="text-sm text-gray-500">Founded Agentic Tools | Rutgers University</p>
+                <p className="text-sm text-gray-500">Founded Praxis Works | Rutgers University</p>
               </div>
               <a 
                 href="https://www.linkedin.com/in/adh1raj-singh"
