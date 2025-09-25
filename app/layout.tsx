@@ -33,7 +33,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${lora.variable}`}>
-      <body>
+      <head>
+        <link rel="icon" href="/o-logo.png" sizes="any" />
+        <link rel="apple-touch-icon" href="/o-logo.png" />
+        <script 
+          src="https://platform.linkedin.com/badges/js/profile.js" 
+          async 
+          defer 
+          type="text/javascript"
+        />
+      </head>
+      <body className="font-sans antialiased">
         {children}
       </body>
     </html>

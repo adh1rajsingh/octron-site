@@ -1,4 +1,5 @@
-import { Mail, MapPin, Phone, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -8,9 +9,18 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-6">
             <div>
-              <h3 className="text-3xl font-serif font-semibold text-white mb-4">
-                Octron
-              </h3>
+              <div className="flex items-center gap-3 mb-4">
+                <Image
+                  src="/o-logo.png"
+                  alt="Octron Logo"
+                  width={40}
+                  height={40}
+                  className="h-10 w-10"
+                />
+                <h3 className="text-3xl font-serif font-semibold text-white">
+                  Octron
+                </h3>
+              </div>
               <p className="text-lg text-neutral-300 leading-relaxed max-w-lg">
                 Pioneering the future of mental healthcare through innovative 
                 NeuroAdaptive VR Therapy technology.
@@ -46,23 +56,6 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Social Links */}
-            <div className="flex space-x-4 pt-4">
-              <a 
-                href="#" 
-                className="w-10 h-10 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 hover:text-white hover:bg-neutral-700 transition-all duration-200"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 hover:text-white hover:bg-neutral-700 transition-all duration-200"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           {/* Contact Form */}

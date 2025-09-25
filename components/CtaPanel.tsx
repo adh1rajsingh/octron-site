@@ -22,18 +22,16 @@ export default function CtaPanel() {
                 foundation that makes our approach revolutionary.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button className="btn btn-primary group">
+              <div className="flex justify-center">
+                <a 
+                  href="https://ieeexplore.ieee.org/document/11058475"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary group"
+                >
                   <Download className="w-5 h-5 mr-2" />
                   Download Whitepaper
                   <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
-                </button>
-                
-                <a 
-                  href="#contact" 
-                  className="text-neutral-600 hover:text-neutral-900 font-medium transition-colors duration-200"
-                >
-                  Request Clinical Data
                 </a>
               </div>
 
