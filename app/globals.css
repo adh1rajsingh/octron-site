@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .font-kalam {
+    font-family: var(--font-kalam), cursive;
+  }
+  
+  .scribble-underline {
+    position: relative;
+  }
+  
+  .scribble-underline::after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    height: 4px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 8' fill='none'%3E%3Cpath d='M2 4c12-1.5 24 2 36-0.5s25-2 37 1c12 1.5 24-1 36 0.5s25 2.5 37-1c12-1.5 24 1.5 36-0.5s14 1 14 1' stroke='%234338ca' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.7;
+    transform: rotate(-0.5deg);
+  }
+}
+
 @layer base {
   html {
     font-feature-settings: "rlig" 1, "calt" 1;

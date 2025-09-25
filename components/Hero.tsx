@@ -3,6 +3,18 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative pt-12 bg-white">
+      {/* The Plan Text */}
+      <div className="absolute top-4 right-4 md:top-8 md:right-8 z-10">
+        <span 
+          className="text-xl md:text-2xl text-indigo-700 transform rotate-6 inline-block font-kalam scribble-underline"
+          style={{ 
+            textShadow: '0.5px 0.5px 1px rgba(0,0,0,0.2)',
+            letterSpacing: '0.5px'
+          }}
+        >
+          The Plan
+        </span>
+      </div>
       <div className="max-w-8xl mx-auto container-padding">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Content */}

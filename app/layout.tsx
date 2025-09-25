@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Lora, Montserrat } from "next/font/google";
+import { Inter, Lora, Montserrat, Kalam } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -17,6 +17,13 @@ const lora = Lora({
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
+  display: "swap",
+});
+
+const kalam = Kalam({
+  subsets: ["latin"],
+  variable: "--font-kalam",
+  weight: ["300", "400", "700"],
   display: "swap",
 });
 
@@ -52,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${lora.variable} ${montserrat.variable}`}>
+    <html lang="en" className={`${inter.variable} ${lora.variable} ${montserrat.variable} ${kalam.variable}`}>
       <head>
         <link rel="icon" href="/o-logo.png" sizes="any" />
         <link rel="apple-touch-icon" href="/o-logo.png" />
