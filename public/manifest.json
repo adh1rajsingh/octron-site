@@ -1,7 +1,7 @@
 {
   "name": "Octron - NAVR Mental Healthcare",
   "short_name": "Octron",
-  "description": "NeuroAdaptive VR Therapy for objective, personalized mental health diagnostics",
+  "description": "NeuroAdaptive Virtual Reality for objective, personalized mental health diagnostics",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F8F7F4",

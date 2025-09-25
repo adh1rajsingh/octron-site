@@ -1,6 +1,6 @@
 # Octron NAVR Website
 
-A modern, elegant website for Octron's flagship product NAVR (NeuroAdaptive VR Therapy), built with Next.js 14, TypeScript, and Tailwind CSS.
+A modern, elegant website for Octron's flagship product NAVR (NeuroAdaptive Virtual Reality), built with Next.js 14, TypeScript, and Tailwind CSS.
 
 ## Features
 

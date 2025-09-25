@@ -29,7 +29,7 @@ const kalam = Kalam({
 
 export const metadata: Metadata = {
   title: "Octron",
-  description: "NAVR (NeuroAdaptive VR Therapy) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
+  description: "NAVR (NeuroAdaptive Virtual Reality) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
   keywords: ["mental health", "VR therapy", "ADHD", "anxiety", "biofeedback", "AI", "neurotechnology"],
   authors: [{ name: "Octron" }],
   icons: {
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Octron",
-    description: "NAVR (NeuroAdaptive VR Therapy) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
+    description: "NAVR (NeuroAdaptive Virtual Reality) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Octron",
-    description: "NAVR (NeuroAdaptive VR Therapy) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
+    description: "NAVR (NeuroAdaptive Virtual Reality) integrates immersive Virtual Reality with real-time biofeedback and AI to provide objective, personalized mental health diagnostics for ADHD and anxiety disorders.",
   },
 };
 
