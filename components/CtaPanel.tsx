@@ -26,7 +26,7 @@ export default function CtaPanel() {
       <section id="research" className="section-padding bg-gradient-to-br from-primary-50 via-background to-accent-50">
         <div className="max-w-8xl mx-auto container-padding">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-neutral-950">
+            <h2 className="text-4xl md:text-5xl font-serif text-neutral-950">
               Read Our Research
             </h2>
           </div>

@@ -5,7 +5,7 @@ export default function Features() {
     <section id="how-it-works" className="section-padding bg-neutral-50">
       <div className="max-w-8xl mx-auto container-padding">
         <div className="text-center space-y-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl md:text-5xl font-serif text-neutral-950">
             How NAVR Works
           </h2>
           
