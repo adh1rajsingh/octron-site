@@ -31,23 +31,6 @@ export default function Footer() {
             </a>
           </div>
         </div>
-
-        {/* Bottom Footer */}
-        <div className="border-t border-neutral-800 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-neutral-400 text-sm">
-              © 2024 Octron. All rights reserved.
-            </p>
-            <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors duration-200">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors duration-200">
-                Terms of Service
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     </footer>
   );

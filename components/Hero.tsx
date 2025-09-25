@@ -16,9 +16,9 @@ export default function Hero() {
                 <Image
                   src="/logo.png"
                   alt="Octron Logo"
-                  width={300}
-                  height={100}
-                  className="h-16 w-auto md:h-20 lg:h-24"
+                  width={70}
+                  height={21}
+                  className="h-6 w-auto md:h-7"
                   priority
                 />
               </div>
